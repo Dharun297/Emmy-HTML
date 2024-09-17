@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+    body {
+        margin: 0;
+        padding: 0;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #777;
+      }
+
+      .container {
+        text-align: center;
+        max-width: 450px;
+        padding: 40px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        position: relative;
+      }
+
+      .logo {
+        width: 100px;
+        height: 64px;
+        margin-bottom: 20px;
+        margin-right: auto;
+        display: block; 
+    }
+
+      h1 {
+        color: #da4500;
+        font-family: "DM Sans", sans-serif;
+        font-size: 24px;
+        font-weight: 700;
+        margin-bottom: 20px;
+      }
+
+      .sub-title {
+        text-align: left;
+        color: #000;
+        font-family: "DM Sans", sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: 15px;
+      }
+
+      .title-para p {
+        text-align: left;
+        font-size: 1rem;
+        color: #000;
+        margin-bottom: 30px;
+        line-height: 1.5;
+      }
+      .paragraph {
+        color: #000;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 36px; /* 225% */
+      }
+
+      .center-button {
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 1rem;
+        color: #fff;
+        background-color: #3498db;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+        transition: background-color 0.3s;
+      }
+
+      .center-button:hover {
+        background-color: #2980b9;
+      }
+
+      .date {
+        color: #000;
+        text-align: right;
+        font-family: "DM Sans", sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img src="https://plus.unsplash.com/premium_photo-1663045495725-89f23b57cfc5?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Logo" class="logo" />
+
+      <h1>Payment Confirmation</h1>
+
+      <div class="title-para">
+        <h1 class="sub-title">Hi Amirulislam!</h1>
+        <p class="paragraph">
+          We are pleased to let you know Mr.Fox has made payment. Please carry
+          out the required service as agreed. Payment will be released into your
+          chosen back account. Once service has been completed and you and the
+          customer are both happy to sign off. Emyy will deduct it's fee from
+          the total value. 
+
+        </p>
+        <p>Thank you.</p>
+
+      </div>
+
+      <a href="#" class="center-button" style="background: #55d381">View</a>
+
+      <div class="date">
+        <script>
+          document.write(new Date().toLocaleDateString());
+        </script>
+      </div>
+    </div>
+  </body>
+</html>
